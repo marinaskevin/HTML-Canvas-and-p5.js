@@ -1,0 +1,19 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>The HTML Canvas</title>
+</head>
+<body>
+	<canvas id="my-canvas">
+	</canvas>
+</body>
+<script>
+	let canvasElement = document.getElementById("my-canvas");
+	let canvasContext = canvasElement.getContext("2d");
+	canvasContext.lineWidth = 10;
+	canvasContext.strokeStyle = 'blue';
+	canvasContext.strokeRect(10, 10, 70, 70);
+	canvasContext.fillStyle = 'red';
+	canvasContext.fillRect(30, 30, 40, 40);
+</script>
+</html>
