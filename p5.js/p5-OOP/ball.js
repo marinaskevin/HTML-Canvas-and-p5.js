@@ -6,7 +6,7 @@ function setup(){
     ball1 = new Ball(width/2, 0);
 }
 function draw() {
-    background(25);
+    background(150,180,100);
     ball1.move();
     ball1.display();
 }
